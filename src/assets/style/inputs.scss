@@ -1,0 +1,7 @@
+.input:focus,.select select:focus,input.input.input-color:focus,textarea.textarea.input-color:focus{
+  border-color: #ff5257;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #ff5257;
+}

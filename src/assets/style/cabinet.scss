@@ -1,0 +1,323 @@
+.container {
+  //max-width: 1140px;
+}
+
+.dn {
+  display: none;
+}
+
+.empty {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #959595;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.responsive-img {
+  //width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.h200 {
+  max-height: 200px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.btn {
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px;
+  background-color: #959595;
+}
+
+.input-field {
+  font-size: 14px;
+  color: #212B36;
+  width: 100%;
+  padding: 13px 17px;
+  height: 46px;
+  border: 1px solid #C4CDD5;
+  border-radius: 3px;
+  line-height: 20px;
+
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &::placeholder {
+    color: #ADADAD;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+    color: #ADADAD;
+  }
+
+  ::-ms-input-placeholder {
+    color: #ADADAD;
+  }
+}
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+.light-red-bg {
+  background-color: #E2474B;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.light-red-text {
+  color: #e2474b;
+}
+
+.white-bg {
+  background-color: #FFFFFF;
+}
+
+.red-border {
+  border: 1px #FF0000 solid;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.invalid {
+  border: 2px red solid;
+}
+
+.helper-text {
+  display: block;
+  margin-top: 10px;
+  color: #6E6E6E;
+}
+
+//////////////////////////////////////////////////////////////////////
+.min-h-thead {
+  min-height: 21px;
+}
+
+.my-table-container {
+  .b-table {
+    .icon.go-back-confused.is-large {
+      transform: rotate(0deg);
+    }
+    thead {
+      text-align: left;
+      background: #ECEDF0;
+      box-shadow: 0 1px 0 #DFE3E8;
+      font-size: 13px;
+
+      tr {
+        height: 46px;
+
+        div.th-wrap {
+          padding-top: 7px;
+        }
+
+        th:first-child {
+          border-top-left-radius: 12px;
+        }
+
+        th:last-child {
+          border-top-right-radius: 12px;
+        }
+      }
+    }
+
+    tbody {
+      .icon {
+        transform: rotate(-90deg);
+        color: #e2474b;
+      }
+
+      .icon.is-expanded {
+        transform: rotate(90deg);
+      }
+      tr {
+        //height: 100px;
+        min-height: 90px;
+        td {
+          min-height: 100%;
+          border-bottom: 1px solid #D9D9D9;
+          vertical-align: inherit;
+
+          img:hover {
+            cursor: pointer;
+          }
+        }
+
+        td:first-child {
+          div {
+            text-align: center;
+          }
+        }
+
+        td:last-child {
+          margin-right: 19px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}
+
+.my-style-table {
+  tr > td:first-child {
+    width: 145px;
+    height: 110px;
+    text-align: center;
+  }
+
+  .my-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+.sorted {
+  margin-right: 10px;
+}
+
+.extra-margin-left {
+  margin-left: 10px;
+}
+
+//////////////////////////////////////////////////////////////
+.wrap-color{
+  .input:focus,.select select:focus,input.input.input-color:focus,textarea.textarea.input-color:focus{
+    border-color: #ff5257;
+  }
+}
+
+.tool {
+  .tool_img {
+    width: 58px;
+    height: 59px;
+    margin-right: 12px;
+  }
+}
+
+.tool_description {
+  line-height: 21px;
+
+  .tool_description_title {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .tool_description_extra {
+    font-size: 12px;
+    color: #7F8FA4;
+  }
+}
+
+button.btn-scoped-main.onHover:hover {
+  background-color: #e2474b;
+  color: #FFFFFF;
+}
+
+
+
+.h100 {
+  height: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+///loader
+.lds-hourglass {
+  /*display: inline-block;*/
+  position: relative;
+  /*width: 80px;*/
+  /*height: 80px;*/
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.lds-hourglass:after {
+  background-color: red;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
